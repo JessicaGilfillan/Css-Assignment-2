@@ -2,7 +2,7 @@
  
     display: flex;
     flex-flow: row wrap;
- 
+
 
 }
 
@@ -19,6 +19,7 @@ margin-right: 10px;
 margin-bottom: 1px;
 margin-top: 150px;
 
+
 /*padding: 10px 10px 10px 10px;*/
 }
 
@@ -27,9 +28,11 @@ margin-top: 150px;
 p {
 
 text-align: center;
-float: center;
+font-family: 'Roboto', sans-serif;
 padding-left: 120px;
   max-width: 300px; 
+  font-size: 1.2em;
+  font-weight: bold;
 }
 /* Define styles for the navigation bar */
   .navbar {
@@ -51,6 +54,7 @@ padding-left: 120px;
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
   }
   /* Define styles for the body of the page */
   body {
